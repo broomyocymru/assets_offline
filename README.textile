@@ -11,7 +11,7 @@ Installing
 Installation is straight forward simply add the gem to your gemfile and do a bundle install or on the terminal as follows
 
 <pre>
-$ gem install projectname
+$ gem install assets_offline
 </pre>
 
 <pre>
@@ -75,7 +75,7 @@ Credits
 License
 -------
 
-Copyright (c) YEAR YOUR NAME
+Copyright (c) 2011 broomyocymru
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
