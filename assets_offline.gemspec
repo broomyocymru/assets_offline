@@ -5,11 +5,11 @@ require "assets_offline/version"
 Gem::Specification.new do |s|
   s.name        = "assets_offline"
   s.version     = AssetsOffline::VERSION
-  s.authors     = ["Broomy"]
+  s.authors     = ["Broomyocymru"]
   s.email       = ["broomyocymru@hotmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Rails 3.1 offline cache manifest view}
+  s.description = %q{Rails 3.1 offline cache manifest view}
 
   s.rubyforge_project = "assets_offline"
 
