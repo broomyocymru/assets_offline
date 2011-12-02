@@ -10,10 +10,11 @@ Installing
 
 Installation is straight forward simply add the gem to your gemfile and do a bundle install or on the terminal as follows
 
-``` terminal
+<pre>
 $ gem install projectname
-```
-``` yaml
+</pre>
+
+<pre>
 # Last Updated DD/MM/YYYY
 application:
   asset-cache:
@@ -30,7 +31,7 @@ application:
   network:
     - "/checkout/start_transaction.json"
     - "/checkout/submit_transaction.json"
-```
+</pre>
 
 Documentation
 ----------------------
