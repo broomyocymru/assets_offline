@@ -4,12 +4,26 @@ module AssetsOfflineHelper
 
     if !@root["asset-cache"].blank? and @root["asset-cache"].count() > 0
       @root["asset-cache"].each do |asset_name|
-        resources << asset_path(asset_name)
+        # Build the resource as a path.
+        resource = asset_path(asset_name)
+
+        # Add the query string appended to assets in development mode.
+        resource << '?body=1' if Rails.env == 'development'
+
+        # Add the resource to the list of resources.
+        resources << resource
       end
     end
     if !@root["cache"].blank? and @root["cache"].count() > 0
       @root["cache"].each do |asset_name|
-        resources << asset_name
+        # Initially, use the asset name as-is.
+        resource = asset_name
+
+        # Add the query string appended to assets in development mode.
+        resource << '?body=1' if Rails.env == 'development'
+
+        # Add the resource to the list of resources.
+        resources << resource
       end
     end
 
@@ -21,12 +35,26 @@ module AssetsOfflineHelper
 
     if !@root["asset-network"].blank? and @root["asset-network"].count() > 0
       @root["asset-network"].each do |asset_name|
-        resources << asset_path(asset_name)
+        # Build the resource as a path.
+        resource = asset_path(asset_name)
+
+        # Add the query string appended to assets in development mode.
+        resource << '?body=1' if Rails.env == 'development'
+
+        # Add the resource to the list of resources.
+        resources << resource
       end
     end
     if !@root["network"].blank? and @root["network"].count() > 0
       @root["network"].each do |asset_name|
-        resources << asset_name
+        # Initially, use the asset name as-is.
+        resource = asset_name
+
+        # Add the query string appended to assets in development mode.
+        resource << '?body=1' if Rails.env == 'development'
+
+        # Add the resource to the list of resources.
+        resources << resource
       end
     end
 
