@@ -1,7 +1,7 @@
 assets_offline
 ============
 
-**Stable Version**: 0.0.3
+**Stable Version**: 0.0.5
 
 This gem is specifically for Rails 3.1 projects that wish to use HTML5 and its offline cache feature with the Asset Pipeline.
 
@@ -61,7 +61,7 @@ Roadmap
 Changelog
 ---------
 
-**v0.0.3**
+**v0.0.5**
 
 * Beta release
 
@@ -70,7 +70,7 @@ Credits
 -------
 
 * [broomyocymru](mailto: broomyocymru@hotmail.com)
-
+* [jmacdonald]
 
 License
 -------
